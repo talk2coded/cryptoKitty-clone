@@ -51,19 +51,12 @@
       </div>
 
     <div class="container" style="margin-top: 12vh;margin-bottom: 10vh;">
-       
-        <div class="row">
-           <img class="img-fluid mx-auto" src="./assets/images/set-collection-of-cute-cat-cartoon-icon-illustration-free-vector-removebg-preview.png"><br>
-        </div> 
-
-          
-            <div class="hero">
-                <h5>Create and breed coded cats !</h5>
-                <a href="./factory.html" class="btn">Get your own kitty</a>
-            </div>
-         
-                  
+       <div class="row">
+           <a href="breed.html" class="breed">Breed Cat</a>
+       </div>                  
         </div>
+
+        
 
 
 
@@ -72,10 +65,21 @@
         <p>Ivan on Tech Academy Bootcamp July 2020</p>
     </footer>
 
+    <script>
+      // when page load create the catalog
+        $(document).ready(function () {
+            setTimeout(() => {
+                contractCatalog()
+            }, 1000)
+        });
+    </script>
+
   </body>
   <script src="./index.js"></script>
   <script src="assets/js/colors.js"></script>
   <script src="assets/js/catSettings.js"></script>
   <script src="assets/js/catFactory.js"></script>
+  <script src="assets/js/catalogue/buildCat.js"></script>
+  <script src="assets/js/catalogue/showCat.js"></script>
 
 </html>

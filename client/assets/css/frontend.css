@@ -1,6 +1,7 @@
 
 
 
+
 .frontend {
     height: 90vh;
     padding-top: 105px;    
@@ -8,8 +9,85 @@
     background-size: cover;
     background-position:bottom;
 }
+.alert{
+    display: block;
+}
+.tab{
+    background-color: black;
+    color: white;
+}
+.create-btn{
+    margin-right: 10px;
+}
 
+.hero{
+    height: auto;
+    border-radius: 20px;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */  
+}
 
+.hero a{
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+a.breed{
+    border: 1px solid white;
+    padding: 20px 60px 20px 60px;
+    border-radius: 100px;
+    margin-top: 30px;
+    background-color: #fff;
+    margin: auto;
+}
+a.breed:hover{
+    text-decoration: none;
+}
+
+.male{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.female{
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+.kittens{
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.tab:hover{
+    background-color: black;
+    color: white;
+}
+.tabs{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.tabs2{
+    margin-left: 20px !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .navbar-brand {
     font-weight: 700;
 }
